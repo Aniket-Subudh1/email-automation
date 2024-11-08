@@ -7,7 +7,7 @@ interface NormalEmailEditorProps {
 
 const NormalEmailEditor: React.FC<NormalEmailEditorProps> = ({ content, setContent }) => {
   return (
-    <div className="p-4 border rounded-md mt-4">
+    <div className="p-4  rounded-md mt-4">
       <h2 className="text-xl font-bold mb-4">Normal Email Editor</h2>
       <textarea
         className="w-full p-2 border rounded h-48"

@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.custom-bg {
+  @apply min-h-screen relative;
+  background-color: hsla(40, 27%, 90%, 1);
+  background-image:
+    radial-gradient(at 81% 21%, hsla(28, 51%, 71%, 1) 0px, transparent 50%),
+    radial-gradient(at 4% 100%, hsla(28, 51%, 71%, 1) 0px, transparent 50%);
+}
+
+body {
+  @apply font-sans;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  border-radius: 14px;
+  overflow: visible;
+  padding: 16px;
+  background: rgba(248, 251, 254, 0.95);
+  backdrop-filter: blur(24px);
+  z-index: 2;
+}
+
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 3;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+

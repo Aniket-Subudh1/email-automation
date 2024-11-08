@@ -17,8 +17,8 @@ const RecipientFields: React.FC<RecipientFieldsProps> = ({ recipients, setRecipi
   };
 
   return (
-    <div className="p-4 border rounded-md mt-4">
-      <h2 className="text-xl font-bold mb-4">Enter Recipients</h2>
+    <div className="p-4  rounded-md mt-4">
+      <h2 className="text-xl font-bold mb-4 text-center">Enter Recipients</h2>
       {(['to', 'cc', 'bcc'] as Array<keyof Recipients>).map((field) => (
         <div key={field} className="mb-2">
           <label className="block mb-1">{field.toUpperCase()}:</label>

@@ -68,9 +68,9 @@ const EmailInputMethod: React.FC<EmailInputMethodProps> = ({ setEmails }) => {
   };
 
   return (
-    <div className="p-4 border rounded-md">
-      <h2 className="text-xl font-bold mb-4">Select Email Input Method</h2>
-      <div className="mb-4">
+    <div className="p-4  rounded-md">
+      <h2 className="text-xl font-bold mb-7 text-center">Select Email Input Method</h2>
+      <div className="mb-4 text-center">
         <label className="mr-4">
           <input
             type="radio"
